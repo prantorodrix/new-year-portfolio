@@ -1,0 +1,318 @@
+/* Universel css is here */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+    transition: .2s;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+}
+
+/* header css is start here */
+.header {
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 200px;
+}
+
+.header .head-banner {
+    text-align: right;
+}
+
+.header .head-banner h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 200px;
+}
+
+.header .head-banner p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 26px;
+}
+
+.header .head-banner .head-btn {
+    margin: 30px 0 165px 0;
+    color: #005FAC;
+    background-color: #FFFFFF;
+}
+
+.header .head-banner .head-btn:hover {
+    background-color: #52a3e6;
+    color: #fff;
+}
+
+/* header part css is end here */
+
+
+/* description section css is start here */
+.description {
+    display: flex;
+    margin: 130px 200px;
+}
+
+.description .description-contain {
+    padding: 254px 135px 0 75px;
+}
+
+.description .description-contain h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.description .description-contain p {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.description .description-contain ul li {
+    list-style-type: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.description .description-contain ul li img {
+    width: 20px;
+}
+
+/* description section css is end here */
+
+/* plan section css is start here */
+.plan {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 130px 0 30px 0;
+}
+
+.plan .plan-contain ul {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0 0;
+}
+
+.plan .plan-contain ul li {
+    list-style-type: none;
+    margin: 0 60px;
+}
+
+.plan .plan-contain ul li h3 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.plan .plan-contain ul li p {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* plan section css is end here */
+
+/* call section css is start here  */
+
+.call {
+    display: flex;
+    justify-content: center;
+}
+
+.call .call-background {
+    background-color: line;
+    background-image: linear-gradient(to right, #00448f, #e50c0c61, #dde3d23b), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 130px 0;
+    border-radius: 5px;
+}
+
+.call .call-background .call-contain {
+    padding: 60px 600px 60px 60px;
+}
+
+.call .call-background .call-contain h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.call .call-background .call-contain .call-btn {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.call .call-background .call-contain .call-btn:hover {
+    background-color: #52a3e6;
+    color: #fff;
+}
+
+/* call section css is end here  */
+
+
+/* branch section css is start here */
+.branch-contain {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.branch-contain h4 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.branch-contain p {
+    color: #737272;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.branch-contain ul {
+    display: flex;
+}
+
+.branch-contain ul li {
+    list-style-type: none;
+    background-color: #0064b4;
+    margin: 31px;
+    border-radius: 11px;
+    padding: 27px;
+}
+
+.branch-contain ul li .branch-image img {
+    border-radius: 50%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.branch-contain ul li .branch-description h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #ff4a00;
+    display: inline;
+    padding: 2px 10px;
+    border-radius: 5px;
+    line-height: 72px;
+
+}
+
+.branch-contain ul li .branch-description p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+
+/* branch section is end here */
+
+
+/* footer section css is here */
+.footer {
+    background-color: #151414;
+
+}
+
+.footer .footer-contain {
+    display: flex;
+    padding: 130px 230px;
+}
+
+.footer-contain .footer-about h3 {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-contain .footer-about p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 15px;
+    padding: 0 313px 0 0;
+}
+
+.footer-contain .footer-about ul {
+    display: flex;
+}
+
+.footer-contain .footer-about ul li {
+    list-style-type: none;
+
+}
+
+.footer-contain .footer-about ul li img {
+    margin-right: 19px;
+}
+
+
+.footer-contain .footer-subscribe h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 0 30px 0;
+}
+
+.footer-contain .footer-subscribe input {
+    border: 2px solid #FFFFFF;
+    background-color: #151414;
+    border-radius: 5px;
+    width: 305px;
+    height: 47px;
+}
+
+.footer-contain .footer-subscribe input::placeholder {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.footer-contain .footer-subscribe .subscribe-btn {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+
+.footer-contain .footer-subscribe .subscribe-btn:hover {
+    background-color: #FFFFFF;
+    color: #005FAC;
+}
+
+/* footer section css is end here */
